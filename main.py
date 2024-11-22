@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 
 # Load the YOLO model
-model = YOLO("./yolo11n.pt")  # Replace with the path to your trained model
+model = YOLO("./best.pt")  # Replace with the path to your trained model
 
 # Streamlit app
 st.title("YOLO Object Detection")
