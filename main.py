@@ -12,7 +12,7 @@ st.markdown("""
     <style>
         /* Background with image */
         .stApp {
-            background: url('https://wallpaperaccess.com/full/3127747.jpg');
+            background: url('./photo/fd3dae78bae7e47768561a280527f41d.jpg');
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
