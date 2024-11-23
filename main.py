@@ -7,6 +7,57 @@ from PIL import Image
 # Load the YOLO model
 model = YOLO("./static/models/yolo/yolo11n.pt")  # Replace with the path to your trained model
 
+# Hextech theme styling
+st.markdown("""
+    <style>
+        /* Background */
+        .stApp {
+            background-color: #1a1a2e;
+            background-image: linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460);
+            color: #e7eaf6;
+        }
+        /* Title */
+        h1 {
+            font-family: 'Lucida Console', Courier, monospace;
+            text-align: center;
+            color: #00d4ff;
+            text-shadow: 2px 2px 4px #0f3460;
+        }
+        /* Sidebar */
+        .css-1d391kg {
+            background: #0f3460;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 2px #00d4ff;
+        }
+        .css-1d391kg h2 {
+            color: #e7eaf6;
+            font-family: 'Verdana', sans-serif;
+        }
+        /* Buttons */
+        .stButton button {
+            background-color: #16213e;
+            color: #00d4ff;
+            border: 2px solid #00d4ff;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: all 0.3s ease;
+        }
+        .stButton button:hover {
+            background-color: #00d4ff;
+            color: #16213e;
+            box-shadow: 0 0 20px #00d4ff;
+        }
+        /* Images */
+        img {
+            border: 5px solid #00d4ff;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #00d4ff;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Streamlit app
 st.title("YOLO Object Detection")
 
