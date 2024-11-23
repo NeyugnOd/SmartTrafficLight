@@ -27,10 +27,12 @@ st.markdown("""
             text-shadow: 2px 2px 4px #0f3460;
         }
         /* Sidebar */
-        .css-1d391kg {
-            background: #0f3460;
+            background: url('https://wallpaperaccess.com/full/7798508.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff; /* Text color */
             border-radius: 10px;
-            box-shadow: 0 0 10px 2px #00d4ff;
+            box-shadow: 0 0 10px 2px rgba(0, 212, 255, 0.5);
         }
         .css-1d391kg h2 {
             color: #e7eaf6;
