@@ -18,30 +18,22 @@ st.markdown("""
             background-position: center;
             color: #e7eaf6;
         }
-        }
-        /* Title */
-        h1 {
-            font-family: 'Lucida Console', Courier, monospace;
-            text-align: center;
-            color: #00d4ff;
-            text-shadow: 2px 2px 4px #0f3460;
-        }
         /* Sidebar background */
-        .css-1d391kg {
-            background: url('https://images.unsplash.com/photo-1568572933382-74d440642117?fit=crop&w=800&q=80');
+        section[data-testid="stSidebar"] > div:first-child {
+            background: url("https://wallpaperaccess.com/full/7798508.jpg");
             background-size: cover;
             background-position: center;
-            color: #ffffff; /* Text color */
             border-radius: 10px;
+            color: white; /* Text color */
             box-shadow: 0 0 10px 2px rgba(0, 212, 255, 0.5);
         }
-        /* Sidebar header */
-        .css-1d391kg h2 {
-            color: #ffffff;
+        /* Sidebar header text */
+        section[data-testid="stSidebar"] h2 {
+            color: white;
             font-family: 'Lucida Console', Courier, monospace;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
-        /* Buttons */
+        /* Buttons styling */
         .stButton button {
             background-color: #16213e;
             color: #00d4ff;
