@@ -28,16 +28,18 @@ st.markdown("""
         }
         /* Sidebar background */
         .css-1d391kg {
-            background: url('https://wallpaperaccess.com/full/7798508.jpg');
+            background: url('https://images.unsplash.com/photo-1568572933382-74d440642117?fit=crop&w=800&q=80');
             background-size: cover;
             background-position: center;
             color: #ffffff; /* Text color */
             border-radius: 10px;
             box-shadow: 0 0 10px 2px rgba(0, 212, 255, 0.5);
         }
+        /* Sidebar header */
         .css-1d391kg h2 {
-            color: #e7eaf6;
-            font-family: 'Verdana', sans-serif;
+            color: #ffffff;
+            font-family: 'Lucida Console', Courier, monospace;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
         /* Buttons */
         .stButton button {
@@ -54,12 +56,6 @@ st.markdown("""
             background-color: #00d4ff;
             color: #16213e;
             box-shadow: 0 0 20px #00d4ff;
-        }
-        /* Images */
-        img {
-            border: 5px solid #00d4ff;
-            border-radius: 15px;
-            box-shadow: 0 0 10px #00d4ff;
         }
     </style>
 """, unsafe_allow_html=True)
