@@ -10,11 +10,14 @@ model = YOLO("./static/models/yolo/yolo11n.pt")  # Replace with the path to your
 # Hextech theme styling
 st.markdown("""
     <style>
-        /* Background */
+        /* Background with image */
         .stApp {
-            background-color: #1a1a2e;
-            background-image: linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460);
+            background: url('https://wallpaperaccess.com/full/3127747.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
             color: #e7eaf6;
+        }
         }
         /* Title */
         h1 {
