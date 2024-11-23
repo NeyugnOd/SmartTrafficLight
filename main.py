@@ -26,7 +26,8 @@ st.markdown("""
             color: #00d4ff;
             text-shadow: 2px 2px 4px #0f3460;
         }
-        /* Sidebar */
+        /* Sidebar background */
+        .css-1d391kg {
             background: url('https://wallpaperaccess.com/full/7798508.jpg');
             background-size: cover;
             background-position: center;
